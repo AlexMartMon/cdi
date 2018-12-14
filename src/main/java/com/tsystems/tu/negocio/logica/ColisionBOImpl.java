@@ -3,6 +3,7 @@ package com.tsystems.tu.negocio.logica;
 import java.util.List;
 
 import javax.enterprise.inject.Default;
+import javax.inject.Named;
 
 import com.tsystems.tu.negocio.objetos.AbstractVehiculo;
 
@@ -13,6 +14,7 @@ import com.tsystems.tu.negocio.objetos.AbstractVehiculo;
  *
  */
 @Default
+@Named
 public class ColisionBOImpl implements ColisionBO {
 
 	/**
